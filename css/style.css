@@ -73,13 +73,15 @@ img
 {
     text-decoration: none;
     color: #fff;
-    padding: 9px 20px;
+    padding: 8px 10px;
     border-radius: 1px;
     background-color: transparent;
 }
 .sidebar-div ul li a:hover
 {
     border-bottom: 2px solid white !important;
+    border-top: 2px solid white !important;
+    transition: all .2s linear;
 }
 
 .fa-search
@@ -124,4 +126,17 @@ i:hover
 }
 
 .my-btn:hover::before {
-    transform: translate(0, -50%);}
+    transform: translate(0, -50%);
+}
+.selction::selection{
+    color:red;
+    font-weight: 800;
+    background:white;
+}
+.main_heading::selection{
+    color:yellow;
+}
+.blu::selection{
+    color:blue;
+}
+
